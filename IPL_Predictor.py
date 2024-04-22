@@ -15,6 +15,16 @@ page_bg_img = f"""
 
 <style>
 
+[data-testid="stFullScreenFrame"]{{
+display:flex;
+align-items:center;
+justify-content:center;
+}}
+
+[data-testid="stFullScreenFrame"] > div{{
+width: 140px !important;
+}}
+
 [data-baseweb="select"] > div {{
 background-color: white !important;
 color:black !important;
@@ -168,6 +178,7 @@ pipe = pickle.load(open('pipe.pkl','rb'))
 
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+st.image('Indian-Premier-League-Logo.png')
 st.markdown("""
     # **IPL MATCH PREDICTION**            
 """)
