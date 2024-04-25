@@ -112,6 +112,7 @@ background-attachment: fixed;
 
 [data-testid="stHeader"] {{
 background: rgba(0,0,0,0);
+color:white;
 }}
 
 [data-testid="stToolbar"] {{
