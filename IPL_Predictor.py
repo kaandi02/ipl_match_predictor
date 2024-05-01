@@ -119,6 +119,10 @@ color:white;
 right: 2rem;
 }}
 
+[data-testid="stMarkdownContainer"] > div > h2 > div > span{{
+    color:red;
+}}
+
 </style>
 """
 teams =['--- Select ---',
